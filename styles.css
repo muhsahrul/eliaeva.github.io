@@ -1,0 +1,602 @@
+p {
+  font-size: 1.5rem;
+}
+
+.title > h1 {
+  font-size: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.menu_list {
+  text-align: end;
+}
+
+.menu_list > button {
+  background-color: transparent;
+}
+
+.show > li {
+  margin: .2rem;
+  padding: .2rem;
+  list-style: none;
+}
+
+.show > li > a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.off {
+  display: none;
+}
+
+
+body {
+  max-width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font: 18px Arial, sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(143, 188, 144 ,0.66);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* width: 90rem; */
+}
+
+.navbar > div > div {
+  display: none;
+}
+
+.navbar > div >  ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 45rem;
+}
+
+.navbar > div > ul > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar > div > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  background-image: url('img/bghomee.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50rem;
+  background-color: #f5f3f1;
+}
+
+.banner > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 50rem;
+}
+
+.banner > div:nth-child(1) > h1 {
+  color: rgb(146, 141, 141);
+  font-size: 3rem;
+}
+
+.company {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.company > div:nth-child(1) {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0rem;
+  /* width: 200rem; */
+  height: 50rem;
+}
+
+.company > div:nth-child(1) > div {
+  margin: 10rem 5rem
+}
+
+.company_profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company_vision {
+  background-image:  url('img/bghomee.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.company_vision > div {
+  align-items: ;
+  display: flex;
+  justify-content: ;
+  padding: 0rem 10rem;
+  background-color: #ffffff73;
+  width: 100rem;
+  height: 100rem;
+}
+
+.company_structure > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+
+.activity > div > div {
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.activity > div > div > h1 {
+  font-size: 2rem;
+  color: #ffff;
+}
+
+.activity_list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.activity_list > div {
+  width: 22rem;
+  text-align: center;
+}
+
+.activity_list > div > p {
+  color: #ffff;
+}
+
+.galery {
+  width: 100%;
+  height: 50rem;
+  text-align: center;
+  margin: 3rem 0rem;
+}
+
+.galery > div:nth-child(2) {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.galery > div:nth-child(2) > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.galery > div:nth-child(2) > div > div > img {
+  width: 17rem;
+}
+
+.galery_card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 21rem;
+  cursor: pointer;
+}
+
+.bio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #8FBC8F;
+  padding: 2rem;
+}
+
+.bio > div:nth-child(1) {
+  text-align: center;
+}
+
+.bio_User {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* width: 90rem; */
+}
+
+.bio_User > div:nth-child(2) {
+  margin: 0rem 2rem;
+}
+
+.bio_profile > tbody > tr > td {
+  padding: 1rem;
+}
+
+.footer {
+  background-color:#458AB2 ;
+  color: #0000;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1428px) {
+  .activity_list > div {
+    width: 15rem;
+    text-align: center;
+  }
+  .activity_list > div > img {
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1011px) {
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    font-size: 2rem;
+  }
+
+  .company > div:nth-child(1) {
+    height: 38rem;
+  }
+
+  .company > div:nth-child(1) > div:nth-child(2) {
+    width: 23rem;
+  }
+  
+  .company > div:nth-child(1) > div > img {
+    width: 15rem;
+  }
+
+  .company_structure > div > img {
+    width: 50rem;
+  }
+
+  .bio_User > div:nth-child(1) > img {
+    width: 20rem;
+  }
+}
+
+
+@media only screen and (max-width: 934px) {
+  .company_vision > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem;
+    background-color: #8FBC8F;
+    width: 40rem;
+  }
+  
+  .company_profile > tbody > tr > td {
+    padding: .2rem;
+  }
+
+  .activity_list > div {
+    width: 9rem;
+    text-align: center;
+  }
+  .activity_list > div > img {
+    width: 5rem;
+    height: 6rem;
+    text-align: center;
+  }
+
+  .galery_card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 18rem;
+    cursor: pointer;
+  }
+}
+
+
+
+@media only screen and (max-width: 814px) {
+  .company_vision > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem;
+    background-color: #EE6C4D;
+    width: 40rem;
+  }
+  
+  .company_profile > tbody > tr > td {
+    padding: .2rem;
+  }
+
+  h1{
+    color: #000;
+  }
+  .activity_list > div {
+    width: 9rem;
+    text-align: center;
+  }
+  .activity_list > div > img {
+    width: 5rem;
+    height: 6rem;
+    text-align: center;
+  }
+
+  .galery{
+    height: 109rem;
+  }
+
+  .galery > div:nth-child(2) > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .galery_card {
+    width: 10rem;
+    cursor: pointer;
+  }
+
+  .company_vision > div {
+    width: 30rem;
+    height: 40rem;
+  }
+
+  .company_structure > div > img {
+    width: 40rem;
+  }
+
+  .activity_list > div > img {
+    width: 2rem;
+    height: 3rem;
+    text-align: center;
+  }
+
+  .bio_profile > tbody > tr > td {
+    padding: .2rem;
+  }
+
+  .bio_User > div:nth-child(1) > img {
+    width: 10rem;
+  }
+}
+
+
+@media only screen and (max-width: 668px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .navbar > div > ul {
+    width: 35rem;
+  }
+
+  .title > h1 {
+    font-size: 1rem;
+  }
+
+  .activity > div > div > h1 {
+    font-size: 1rem;
+    color: #ffff;
+  }
+
+  .company > div:nth-child(1) > div > img {
+    display: none;
+  }
+
+  .company_structure > div > img {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .navbar {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar > div > ul.menu_flex {
+    display: none;
+  }
+
+  .navbar > div > ul.show {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .menu_list {
+    text-align: end;
+  }
+
+  .menu_list > button {
+    background-color: transparent;
+  }
+  
+  .show > li {
+    margin: .2rem;
+    padding: .2rem;
+    list-style: none;
+  }
+
+  .show > li > a{
+    color: #0000;
+    text-decoration: none;
+  }
+
+  .off {
+    display: none;
+  }
+
+  .navbar > div > div {
+    display: unset;
+  }
+  
+  .navbar > div > div > button > img {
+    width: 3rem;
+  }
+  
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+  }
+  
+  .banner > div {
+    height: 40rem;
+  }
+  
+  .banner {
+    height: 40rem;
+  }
+
+  .company_vision > div {
+    width: 20rem;
+  }
+
+  .activity_list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .galery {
+    height: 112rem;
+  }
+
+  .bio_User {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bio_profile > tbody > tr > td {
+    padding: 0rem;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    width: 23rem;
+  }
+
+  .company > div:nth-child(1) {
+    height: 38rem;
+    width: 23rem;
+  }
+
+  .company_structure > div > img {
+    width: 20rem;
+  }
+}
+
+
+@media only screen and (max-width: 411px) {
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    width: 23rem;
+  }
+
+  .company > div:nth-child(1) {
+    height: 38rem;
+    width: 23rem;
+  }
+
+  .company_structure > div > img {
+    width: 20rem;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .company_structure > div > img {
+    width: 15rem;
+  }
+
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    width: 15rem;
+  }
+
+  .company > div:nth-child(1) {
+    width: 20rem;
+    height: 38rem;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .banner > div:nth-child(1) > h1 {
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    width: 20rem;
+  }
+
+  .company > div:nth-child(1) {
+    height: 38rem;
+    width: 20rem;
+  }
+
+  .company_structure > div > img {
+    width: 19rem;
+  }
+}
